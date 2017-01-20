@@ -336,7 +336,7 @@ if ( ! class_exists( PostRelease_VIP ) ) :
 		 */
 		public function postrelease_create_menu() {
 			// Add PostRelease menu item under the "Settings" top-level menu
-			add_submenu_page( 'options-general.php', __( 'PostRelease Dashboard', 'lin' ), __( 'PostRelease', 'lin' ), 'manage_options', 'postrelease', 'postrelease_settings_page' );
+			add_submenu_page( 'options-general.php', __( 'PostRelease Dashboard', 'nativo' ), __( 'PostRelease', 'nativo' ), 'manage_options', 'postrelease', 'postrelease_settings_page' );
 		}
 
 		/**
